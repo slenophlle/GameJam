@@ -62,9 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\TargetFallow.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
+    <Compile Include="Assets\Scripts\MoveDoor.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\FieldOfView.cs" />
     <Compile Include="Assets\Scripts\SourceManager.cs" />
+    <Compile Include="Assets\Scripts\NavMeshBaker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

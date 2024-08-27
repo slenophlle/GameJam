@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|c:\\users\\helpdesk2014\\documents\\github\\gamejam\\albedourp\\assets\\scripts\\movedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|c:\\users\\helpdesk2014\\documents\\github\\gamejam\\albedourp\\assets\\scripts\\navmeshbaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\navmeshbaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoveDoor.cs",
+              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\MoveDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MoveDoor.cs",
+              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\MoveDoor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MoveDoor.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:00:22.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMeshBaker.cs",
+              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\NavMeshBaker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NavMeshBaker.cs",
+              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\NavMeshBaker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NavMeshBaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:30:28.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
