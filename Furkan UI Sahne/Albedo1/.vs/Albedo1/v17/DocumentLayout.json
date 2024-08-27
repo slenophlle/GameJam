@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|c:\\users\\helpdesk2014\\documents\\github\\gamejam\\furkan ui sahne\\albedo1\\assets\\scripts\\charactercontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactercontroller2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\assets\\camerafallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|solutionrelative:assets\\camerafallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|c:\\users\\helpdesk2014\\documents\\github\\gamejam\\furkan ui sahne\\albedo1\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\assets\\scripts\\sourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD19858-2C18-7C84-ABC0-00CA32CB6E40}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CharacterController2D.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\Scripts\\CharacterController2D.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterController2D.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\Scripts\\CharacterController2D.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharacterController2D.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T16:23:13.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraFallow.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\CameraFallow.cs",
-              "RelativeDocumentMoniker": "Assets\\CameraFallow.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\CameraFallow.cs",
-              "RelativeToolTip": "Assets\\CameraFallow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T16:19:18.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SourceManager.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\Scripts\\SourceManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SourceManager.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\Scripts\\SourceManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SourceManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T11:53:19.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ButtonManager.cs",
               "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\Scripts\\ButtonManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonManager.cs",
               "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\Furkan UI Sahne\\Albedo1\\Assets\\Scripts\\ButtonManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowA0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T11:31:25.32Z"
+              "WhenOpened": "2024-08-26T17:34:52.745Z",
+              "EditorCaption": ""
             }
           ]
         }

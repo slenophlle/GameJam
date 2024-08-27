@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\MapTest\\Albedo_ArnavutkoyGamejam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC421F72-0D86-4E53-3577-C409649E1252}|Assembly-CSharp.csproj|c:\\users\\helpdesk2014\\documents\\github\\gamejam\\maptest\\albedo_arnavutkoygamejam\\assets\\scripts\\targetfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC421F72-0D86-4E53-3577-C409649E1252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\targetfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC421F72-0D86-4E53-3577-C409649E1252}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\MapTest\\Albedo_ArnavutkoyGamejam\\assets\\scripts\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC421F72-0D86-4E53-3577-C409649E1252}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TargetFallow.cs",
+              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\MapTest\\Albedo_ArnavutkoyGamejam\\Assets\\Scripts\\TargetFallow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TargetFallow.cs",
+              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\MapTest\\Albedo_ArnavutkoyGamejam\\Assets\\Scripts\\TargetFallow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TargetFallow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T18:47:17.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FieldOfView.cs",
+              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\MapTest\\Albedo_ArnavutkoyGamejam\\Assets\\Scripts\\FieldOfView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FieldOfView.cs",
+              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\MapTest\\Albedo_ArnavutkoyGamejam\\Assets\\Scripts\\FieldOfView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FieldOfView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:50:30.858Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
