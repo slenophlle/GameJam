@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(SpawnEnemyAfterDelay(120f)); // 120 saniye yani 2 dakika sonra spawn olacak
+        StartCoroutine(SpawnEnemyAfterDelay(80f)); // 120 saniye yani 2 dakika sonra spawn olacak
     }
 
     IEnumerator SpawnEnemyAfterDelay(float delay)

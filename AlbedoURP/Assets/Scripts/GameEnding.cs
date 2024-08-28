@@ -45,6 +45,6 @@ public class GameEnding : MonoBehaviour
         Time.timeScale = 1f;
 
         // Yeni sahneyi yükle
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }
