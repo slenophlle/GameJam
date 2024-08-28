@@ -26,9 +26,9 @@ public class ButtonManager : MonoBehaviour
         GamePanel.SetActive(isGamePanelVisible);
 
     }
-    public void LoadScene(int sceneIndex)
+    public void LoadScene()
     {
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(1);
     }
 
     // Toggle the settings panel visibility

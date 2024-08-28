@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     private Rigidbody2D rb;
-
+    public Animator animator;
 
     [SerializeField] float speed;
 
@@ -14,12 +13,14 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         MovePlayer();
+        UpdateAnimation();
     }
 
     private void MovePlayer()
@@ -28,5 +29,14 @@ public class PlayerController : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
 
         rb.velocity = new Vector2(horizontal * speed, vertical * speed);
+    }
+
+    private void UpdateAnimation()
+    {
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        animator.SetFloat("Horizontal", horizontal);
+        animator.SetFloat("Vertical", vertical);
     }
 }

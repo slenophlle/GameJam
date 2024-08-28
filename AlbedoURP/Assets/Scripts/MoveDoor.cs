@@ -22,7 +22,7 @@ public class MoveDoor : MonoBehaviour
     {
         Debug.Log("Triggered by: " + other.gameObject.name); // Tetikleme olup olmadýðýný kontrol eder
 
-        if (other.CompareTag("Player")) // Tetikleyicinin "Player" tag'ini kontrol edin
+        if (other.CompareTag("Player") || other.CompareTag("Enemy")) // Tetikleyicinin "Player" tag'ini kontrol edin
         {
             isTriggered = true; // Kapýlarý açmak için tetikleyin
             StartCoroutine(CloseDoorsAfterDelay(3.0f)); // 3 saniye sonra kapýlarý kapat
