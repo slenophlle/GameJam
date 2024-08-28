@@ -1787,12 +1787,11 @@ MonoBehaviour:
   - {fileID: 1511621389}
   - {fileID: 722902808}
   - {fileID: 1753480759}
-  - {fileID: 1753480759}
   - {fileID: 1428450684}
   - {fileID: 1145480986}
   textContainer: {fileID: 1529174889}
   canvasGroup: {fileID: 247137205}
-  textSpeed: 0.01
+  textSpeed: 0.004
 --- !u!1 &1753480757
 GameObject:
   m_ObjectHideFlags: 0

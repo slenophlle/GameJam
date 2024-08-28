@@ -18,6 +18,7 @@ public class GameEnding : MonoBehaviour
 
     private void TriggerGameEnding()
     {
+        Cursor.visible = true;
         // Arayüz panelini kapat ve oyun bitiþ panelini aç
         InterFacePanel.SetActive(false);
         GameEndingPanel.SetActive(true);

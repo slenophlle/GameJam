@@ -490,7 +490,7 @@ MonoBehaviour:
   - {fileID: 1652528545}
   textContainer: {fileID: 757454019}
   canvasGroup: {fileID: 999674197}
-  textSpeed: 0.02
+  textSpeed: 0.007
   fadeSpeed: 1
 --- !u!1 &942649155
 GameObject:
