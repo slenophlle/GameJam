@@ -7,6 +7,7 @@ public class Collectible : MonoBehaviour
 {
     public static List<GameObject> invObjects = new List<GameObject>();
     public ItemData itemData;
+    [Header("Images")]
     [SerializeField] Image imageSlot1;
     [SerializeField] Image imageSlot2;
     [SerializeField] Image imageSlot3;

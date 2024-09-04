@@ -1,54 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\",
+  "WorkspaceRootPath": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|c:\\users\\helpdesk2014\\documents\\github\\gamejam\\albedourp\\assets\\scripts\\gameending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\camerafallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\startandscreen\\handlefinaltexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\startandscreen\\handlefinaltexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\scripts\\targetfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\targetfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\startandscreen\\handletexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\startandscreen\\handletexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\scripts\\minigamevaluecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigamevaluecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\interactionsys\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\interactionsys\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\scripts\\valuesofminigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\valuesofminigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\interactionsys\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|c:\\users\\fcaka\\onedrive\\desktop\\github\\gamejam\\albedourp\\assets\\interactionsys\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\interactionsys\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\valuesofminigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\valuesofminigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\targetfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\targetfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\lightfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightfallow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\gameending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\minigamevaluecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigamevaluecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\interactionsys\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\interactionsys\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleTexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\StartAndScreen\\HandleTexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleFinalTexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\StartAndScreen\\HandleFinalTexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,51 +66,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HandleFinalTexts.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleFinalTexts.cs",
-              "RelativeDocumentMoniker": "Assets\\StartAndScreen\\HandleFinalTexts.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleFinalTexts.cs",
-              "RelativeToolTip": "Assets\\StartAndScreen\\HandleFinalTexts.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEcAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "LightFallow.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\LightFallow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightFallow.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\LightFallow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightFallow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T11:23:40.531Z"
+              "WhenOpened": "2024-09-03T22:58:01.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "HandleTexts.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleTexts.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleTexts.cs",
               "RelativeDocumentMoniker": "Assets\\StartAndScreen\\HandleTexts.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleTexts.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleTexts.cs",
               "RelativeToolTip": "Assets\\StartAndScreen\\HandleTexts.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAArAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T11:07:40.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Collectible.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\Collectible.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\Collectible.cs",
               "RelativeDocumentMoniker": "Assets\\InteractionSys\\Collectible.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\Collectible.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\Collectible.cs",
               "RelativeToolTip": "Assets\\InteractionSys\\Collectible.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T09:46:51.313Z"
+              "WhenOpened": "2024-08-28T09:46:51.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "playerInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\playerInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\playerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\InteractionSys\\playerInteraction.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\playerInteraction.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\InteractionSys\\playerInteraction.cs",
               "RelativeToolTip": "Assets\\InteractionSys\\playerInteraction.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowDUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -110,13 +119,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "ValuesOfMiniGame.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\ValuesOfMiniGame.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\ValuesOfMiniGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ValuesOfMiniGame.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\ValuesOfMiniGame.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\ValuesOfMiniGame.cs",
               "RelativeToolTip": "Assets\\Scripts\\ValuesOfMiniGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T09:33:09.808Z"
             },
@@ -124,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ButtonManager.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\ButtonManager.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\ButtonManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonManager.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\ButtonManager.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\ButtonManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonManager.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,9 +145,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,11 +155,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MinigameValueController.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\MinigameValueController.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\MinigameValueController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MinigameValueController.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\MinigameValueController.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\MinigameValueController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MinigameValueController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,52 +167,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "GameEnding.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameEnding.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameEnding.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameEnding.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameEnding.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\GameEnding.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameEnding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T08:35:02.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T08:35:02.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TargetFallow.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\TargetFallow.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TargetFallow.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\TargetFallow.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TargetFallow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T06:14:16.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\EnemySpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T08:32:06.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "TargetFallow.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\TargetFallow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TargetFallow.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\TargetFallow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TargetFallow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:14:16.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraFallow.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\CameraFallow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFallow.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\CameraFallow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFallow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T22:49:24.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\helpdesk2014\\Documents\\GitHub\\GameJam\\AlbedoURP\\Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA3AAAAAAAAAA==",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T08:09:54.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HandleFinalTexts.cs",
+              "DocumentMoniker": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleFinalTexts.cs",
+              "RelativeDocumentMoniker": "Assets\\StartAndScreen\\HandleFinalTexts.cs",
+              "ToolTip": "C:\\Users\\fcaka\\OneDrive\\Desktop\\Github\\GameJam\\AlbedoURP\\Assets\\StartAndScreen\\HandleFinalTexts.cs",
+              "RelativeToolTip": "Assets\\StartAndScreen\\HandleFinalTexts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:23:40.531Z"
             }
           ]
         }
