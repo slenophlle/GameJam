@@ -36,6 +36,7 @@ public class MoveDoor : MonoBehaviour
             // Kapýlarý hareket ettirin
             leftDoor.position = Vector3.Lerp(leftDoor.position, leftDoorInitialPosition - Vector3.left * moveDistance, Time.deltaTime * moveSpeed);
             rightDoor.position = Vector3.Lerp(rightDoor.position, rightDoorInitialPosition - Vector3.right * moveDistance, Time.deltaTime * moveSpeed);
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseScript : MonoBehaviour
 {
@@ -13,7 +14,10 @@ public class PauseScript : MonoBehaviour
             TogglePause();
         }
     }
-
+    public void TryAgainScene()
+    {
+        SceneManager.LoadScene(2);
+    }
     // Oyun duraklatmayý/tanýmlamayý saðlar
     private void TogglePause()
     {
