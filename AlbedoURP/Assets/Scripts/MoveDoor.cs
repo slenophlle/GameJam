@@ -5,8 +5,8 @@ public class MoveDoor : MonoBehaviour
 {
     public Transform leftDoor; // Sol kapý için GameObject'in Transform'u
     public Transform rightDoor; // Sað kapý için GameObject'in Transform'u
-    public float moveDistance = 2.0f; // Kapýnýn ne kadar hareket edeceði
-    public float moveSpeed = 2.0f; // Kapýnýn hareket hýzý
+    private float moveDistance = 2.5f; // Kapýnýn ne kadar hareket edeceði
+    private float moveSpeed = 2.5f; // Kapýnýn hareket hýzý
     private Vector3 leftDoorInitialPosition;
     private Vector3 rightDoorInitialPosition;
     private bool isTriggered = false;
