@@ -5,19 +5,31 @@ using UnityEngine.Rendering.Universal;
 
 public class FlickerLight : MonoBehaviour
 {
-    public Light2D fireLight;  // Light2D bileþeni
-    public float minIntensity = 0.8f;  // Iþýðýn minimum parlaklýk deðeri
-    public float maxIntensity = 1.2f;  // Iþýðýn maksimum parlaklýk deðeri
-    public float flickerSpeed = 0.1f;  // Titreþim hýzýný belirleyen süre
+    public Light2D fireLight;
+    public ShadowCaster2D shadowCaster;  // Shadow Caster 2D bileþeni
+    [Header("Values")]
+    [SerializeField] private float minIntensity = 1f;
+    [SerializeField] private float maxIntensity = 7.2f;
+    [SerializeField] private float flickerSpeed = 0.4f;
+    [SerializeField] private float minRadius = 1.0f;
+    [SerializeField] private float maxRadius = 2.0f;
+    [SerializeField] private float minShadowStrength = 0.1f;  // Minimum gölge gücü
+    [SerializeField] private float maxShadowStrength = 1.0f;  // Maksimum gölge gücü
+    [SerializeField] public Color minColor;
+    [SerializeField] public Color maxColor;
 
     private void Start()
     {
         if (fireLight == null)
         {
-            fireLight = GetComponent<Light2D>();  // Light2D bileþenini al
+            fireLight = GetComponent<Light2D>();
         }
 
-        // Titreþim efektini baþlat
+        if (shadowCaster == null)
+        {
+            shadowCaster = GetComponent<ShadowCaster2D>();  // Shadow Caster 2D bileþenini al
+        }
+
         StartCoroutine(FlickerFire());
     }
 
@@ -25,16 +37,14 @@ public class FlickerLight : MonoBehaviour
     {
         while (true)
         {
-            // Iþýk yoðunluðunu rastgele ayarla
             fireLight.intensity = Random.Range(minIntensity, maxIntensity);
+            fireLight.pointLightOuterRadius = Random.Range(minRadius, maxRadius);
+            fireLight.color = Color.Lerp(minColor, maxColor, Random.Range(0f, 1f));
 
-            // Rastgele ýþýk yarýçapý deðiþimi (isteðe baðlý)
-            fireLight.pointLightOuterRadius = Random.Range(2.5f, 3.5f);
+            // Gölge gücünü rastgele ayarla
+            float randomShadowStrength = Random.Range(minShadowStrength, maxShadowStrength);
+            shadowCaster.shadowStrength = randomShadowStrength; // Gölge gücünü ayarla
 
-            // Iþýðýn scale deðerini rastgele deðiþtir (X ve Y ekseni)
-            fireLight.transform.localScale = new Vector3(Random.Range(6f, 10f), Random.Range(6f, 10f), 1f);
-
-            // Rastgele süre kadar bekle
             yield return new WaitForSeconds(flickerSpeed);
         }
     }

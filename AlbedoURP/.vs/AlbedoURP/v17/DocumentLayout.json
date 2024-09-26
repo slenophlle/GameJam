@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\fcaka\\Desktop\\GameJam\\AlbedoURP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|c:\\users\\fcaka\\desktop\\gamejam\\albedourp\\assets\\importedassets 1\\fire\\png\\fire\\fireanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\importedassets 1\\fire\\png\\fire\\fireanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\Desktop\\GameJam\\AlbedoURP\\assets\\importedassets 1\\fire\\png\\fire\\flickerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\importedassets 1\\fire\\png\\fire\\flickerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|c:\\users\\fcaka\\desktop\\gamejam\\albedourp\\assets\\importedassets 1\\fire\\png\\fire\\flickerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\importedassets 1\\fire\\png\\fire\\flickerlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|c:\\users\\fcaka\\desktop\\gamejam\\albedourp\\assets\\importedassets 1\\fire\\png\\fire\\fireanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|solutionrelative:assets\\importedassets 1\\fire\\png\\fire\\fireanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9CC46C8-123F-C301-08BC-DDE15CB185ED}|Assembly-CSharp.csproj|C:\\Users\\fcaka\\Desktop\\GameJam\\AlbedoURP\\assets\\interactionsys\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,30 +83,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FireAnimationController.cs",
               "DocumentMoniker": "C:\\Users\\fcaka\\Desktop\\GameJam\\AlbedoURP\\Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FireAnimationController.cs",
               "RelativeDocumentMoniker": "Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FireAnimationController.cs",
               "ToolTip": "C:\\Users\\fcaka\\Desktop\\GameJam\\AlbedoURP\\Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FireAnimationController.cs",
               "RelativeToolTip": "Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FireAnimationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T17:24:53.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FlickerLight.cs",
               "DocumentMoniker": "C:\\Users\\fcaka\\Desktop\\GameJam\\AlbedoURP\\Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FlickerLight.cs",
               "RelativeDocumentMoniker": "Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FlickerLight.cs",
               "ToolTip": "C:\\Users\\fcaka\\Desktop\\GameJam\\AlbedoURP\\Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FlickerLight.cs",
               "RelativeToolTip": "Assets\\ImportedAssets 1\\fire\\PNG\\Fire\\FlickerLight.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCwAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T17:08:52.078Z",
               "EditorCaption": ""
@@ -121,8 +121,7 @@
               "RelativeToolTip": "Assets\\InteractionSys\\Collectible.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T09:46:51.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T09:46:51.313Z"
             },
             {
               "$type": "Document",
