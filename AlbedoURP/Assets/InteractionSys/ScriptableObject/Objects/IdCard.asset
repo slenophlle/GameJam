@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: IdCard
   uiItem: {fileID: 21300000, guid: 85dc24de6785e304dab5c502726d62c4, type: 3}
+  hasIdcard: 1

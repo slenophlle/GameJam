@@ -8,6 +8,9 @@ TagManager:
   - Minigame
   - Enemy
   - "Minigam\u0130nf"
+  - IDcard
+  - ScrewDriver
+  - SampleTube
   layers:
   - Default
   - TransparentFX

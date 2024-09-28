@@ -9,39 +9,38 @@ public class Collectible : MonoBehaviour
     public ItemData itemData;
 
     [Header("Images")]
-    [SerializeField] Image imageSlot1;
-    [SerializeField] Image imageSlot2;
-    public static Image imageSlot3;
+    [SerializeField] Image imageSlot1;  // ScrewDriver için
+    [SerializeField] Image imageSlot2;  // SampleTube için
+    [SerializeField] Image imageSlot3;  // IDCard için
 
-    public static bool isIDTrigged = false;  // Static yapýldý
-
-    private int objLenght = 0;
+    public static bool isIDTrigged = false;  // IDCard alýndý mý kontrolü için
 
     private void Start()
     {
-        objLenght = 0;
+        // Baþlangýçta obje sýfýrlamasý veya baþka iþlemler yapýlabilir
     }
 
     public void InteractObject(GameObject item)
     {
-        invObjects.Add(item);
+        invObjects.Add(item);  // Alýnan objeyi envantere ekle
 
-        objLenght++;
-        Debug.Log(gameObject.name + " bulundu. Envanterde " + objLenght + " obje var.");
-        gameObject.SetActive(false);
+        Debug.Log(gameObject.name + " bulundu. Envantere eklendi.");
+        gameObject.SetActive(false);  // Obje alýndýktan sonra sahneden kaldýr
 
-        if (objLenght == 1)
+        // Objenin tag'ine göre envanterdeki uygun slotu doldur
+        if (item.CompareTag("ScrewDriver"))
         {
             imageSlot1.sprite = itemData.uiItem;
+            Debug.Log(itemData.hasIdcard);// ScrewDriver imageSlot1'e
         }
-        else if (objLenght == 2)
+        else if (item.CompareTag("SampleTube"))
         {
-            imageSlot2.sprite = itemData.uiItem;
+            imageSlot2.sprite = itemData.uiItem;  // SampleTube imageSlot2'ye
         }
-        else if (objLenght == 3)
+        else if (item.CompareTag("IDcard"))
         {
-            imageSlot3.sprite = itemData.uiItem;
-            isIDTrigged = true;  // isIDTrigged static boolean'ý burada true yapýlýyor
+            imageSlot3.sprite = itemData.uiItem;  // IDCard imageSlot3'e
+            isIDTrigged = itemData.hasIdcard;
         }
     }
 }

@@ -7,10 +7,11 @@ using TMPro;
 
 public class MinigameValueController : MonoBehaviour
 {
+    [Header("Sliders")]
     [SerializeField] Slider voltSlider;
     [SerializeField] Slider ampSlider;
     [SerializeField] Slider ohmSlider;
-
+    [Header("TextMesh")]
     [SerializeField] TextMeshProUGUI voltValueText;
     [SerializeField] TextMeshProUGUI ampValueText;
     [SerializeField] TextMeshProUGUI ohmValueText;

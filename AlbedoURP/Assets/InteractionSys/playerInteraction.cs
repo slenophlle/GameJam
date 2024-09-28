@@ -10,6 +10,11 @@ public class PlayerInteraction : MonoBehaviour
 
     private Collectible collectibleItem;
 
+    private void Start()
+    {
+        interactionUI.SetActive(false);
+    }
+
     private void Update()
     {
         if (canInteract && Input.GetKeyDown(KeyCode.E))
@@ -20,43 +25,52 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Interactable"))
+        if (collision.gameObject.CompareTag("ScrewDriver") || collision.gameObject.CompareTag("SampleTube") || collision.gameObject.CompareTag("IDcard"))
         {
-            interactionUI.SetActive(true);
-            canInteract = true;
             interactedObject = collision.gameObject;
             collectibleItem = interactedObject.GetComponent<Collectible>();
+            ShowInteractionUI();
         }
-
-        else if (collision.gameObject.CompareTag("Minigame"))
+        else if (collision.gameObject.CompareTag("Minigame") || collision.gameObject.CompareTag("MinigamÝnf"))
         {
-            interactionUI.SetActive(true);
-            canInteract = true;
             interactedObject = collision.gameObject;
+            ShowInteractionUI();
         }
-        else if (collision.gameObject.CompareTag("MinigamÝnf"))
-        {
-            interactionUI.SetActive(true);
-            canInteract = true;
-            interactedObject = collision.gameObject;
-        }
-        else { }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        // Trigger'dan çýktýðýnda etkileþim UI'sýný gizle
+        if (collision.gameObject == interactedObject)
+        {
+            HideInteractionUI();
+        }
+    }
+
+    private void ShowInteractionUI()
+    {
+        interactionUI.SetActive(true);
+        canInteract = true;
+        Cursor.visible = false; // Fare imlecini gizle
+    }
+
+    private void HideInteractionUI()
+    {
         interactionUI.SetActive(false);
         if (MiniGamePanel != null)
-            MiniGamePanel.SetActive(false);
-        if(interactedObject != null)
         {
-        if (interactedObject.GetComponent<ValuesOfMiniGame>() != null)
-            interactedObject.GetComponent<ValuesOfMiniGame>().canvas.SetActive(false);  
+            MiniGamePanel.SetActive(false);
         }
 
+        if (interactedObject != null)
+        {
+            if (interactedObject.GetComponent<ValuesOfMiniGame>() != null)
+            {
+                interactedObject.GetComponent<ValuesOfMiniGame>().canvas.SetActive(false);
+            }
+        }
         canInteract = false;
-        Cursor.visible = false; // Fare imlecini gizle
-        //Cursor.lockState = CursorLockMode.Locked; // Ýmleci ekranýn ortasýna kilitle
+        interactedObject = null; // Son etkileþim nesnesini sýfýrla
     }
 
     public void Interact()
@@ -65,16 +79,13 @@ public class PlayerInteraction : MonoBehaviour
         {
             MiniGamePanel.SetActive(true);
             Cursor.visible = true; // Fare imlecini göster
-            Cursor.lockState = CursorLockMode.None; // Ýmlecini kilidini kaldýr
+            Cursor.lockState = CursorLockMode.None; // Ýmlecinin kilidini kaldýr
         }
         else if (interactedObject.CompareTag("MinigamÝnf"))
         {
             Debug.Log(interactedObject.name);
             interactedObject.GetComponent<ValuesOfMiniGame>().canvas.SetActive(true);
-
-            
         }
-
         else
         {
             collectibleItem.InteractObject(interactedObject);

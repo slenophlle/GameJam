@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class ItemData : ScriptableObject
     [Header("INFO")]
     public new string name;
     public Sprite uiItem;
+    public bool hasIdcard;
 
 }
 
