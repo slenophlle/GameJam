@@ -60,22 +60,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Prefab\Enemy\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\ValuesOfMiniGame.cs" />
     <Compile Include="Assets\Scripts\TargetFallow.cs" />
-    <Compile Include="Assets\Buhar\SteamAnimationController.cs" />
+    <Compile Include="Assets\ImportedAssets\fire\PNG\Fire\FireAnimationController.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\MoveDoor.cs" />
+    <Compile Include="Assets\ImportedAssets\fire\PNG\Fire\FlickerLight.cs" />
     <Compile Include="Assets\Scripts\LightFallow.cs" />
     <Compile Include="Assets\Start And Finish Screen\Scripts\HandleFinalTexts.cs" />
+    <Compile Include="Assets\Sounds\Soundmanager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\ImportedAssets 1\fire\PNG\Fire\FlickerLight.cs" />
     <Compile Include="Assets\Scripts\FieldOfView.cs" />
     <Compile Include="Assets\Scripts\SourceManager.cs" />
     <Compile Include="Assets\Scripts\MinigameValueController.cs" />
-    <Compile Include="Assets\Enemy\EnemySpawner.cs" />
-    <Compile Include="Assets\ImportedAssets 1\fire\PNG\Fire\FireAnimationController.cs" />
     <Compile Include="Assets\Scripts\CamLighFollower.cs" />
     <Compile Include="Assets\Scripts\GameEnding.cs" />
+    <Compile Include="Assets\Prefab\Buhar\SteamAnimationController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\CameraFallow.cs" />
     <Compile Include="Assets\Scripts\NavMeshBaker.cs" />
@@ -87,17 +88,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\ImportedAssets 1\robots\Licens.txt" />
+    <None Include="Assets\ImportedAssets\robots\Licens.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\ImportedAssets 1\cyberpunkresoursces icom\Font.txt" />
+    <None Include="Assets\ImportedAssets\cyberpunkresoursces icom\Font.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\ImportedAssets 1\gui\License.txt" />
-    <None Include="Assets\ImportedAssets 1\explosion\TXT\readme.txt" />
+    <None Include="Assets\ImportedAssets\MiniGameASset\License.txt" />
+    <None Include="Assets\ImportedAssets\explosion\TXT\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\ImportedAssets 1\fire\License.txt" />
+    <None Include="Assets\ImportedAssets\fire\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\ImportedAssets 1\explosion\TXT\license.txt" />
+    <None Include="Assets\ImportedAssets\explosion\TXT\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -107,14 +108,14 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\ImportedAssets 1\robots\Font.txt" />
+    <None Include="Assets\ImportedAssets\robots\Font.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\ImportedAssets 1\fire\readme.txt" />
+    <None Include="Assets\ImportedAssets\fire\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\ImportedAssets 1\cyberpunkresoursces icom\License.txt" />
+    <None Include="Assets\ImportedAssets\cyberpunkresoursces icom\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -958,6 +959,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1032,6 +1037,10 @@
     </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
@@ -1134,6 +1143,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1156,6 +1169,10 @@
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">

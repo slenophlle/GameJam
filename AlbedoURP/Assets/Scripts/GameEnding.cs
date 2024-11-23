@@ -5,8 +5,13 @@ public class GameEnding : MonoBehaviour
 {
     public GameObject InterFacePanel;
     public GameObject GameEndingPanel;
-    public AudioSource gameOverSound;  // Oyun bitiþ sesi
     private bool isGameOver = false;
+    private Soundmanager soundManager;
+
+    private void Start()
+    {
+        soundManager = FindObjectOfType<Soundmanager>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -22,30 +27,18 @@ public class GameEnding : MonoBehaviour
         // Arayüz panelini kapat ve oyun bitiþ panelini aç
         InterFacePanel.SetActive(false);
         GameEndingPanel.SetActive(true);
+        soundManager.deadSound.Play();
 
-        // Oyun zamanýný durdur
-        Time.timeScale = 0f;
 
-        // Oyun bitiþ sesini çal
-        if (gameOverSound != null)
-        {
-            gameOverSound.Play();
-        }
-
-        // Oyun bitiþ durumunu iþaretle
         isGameOver = true;
     }
 
     public void SceneLoader()
     {
-        // Oyun bitiþ panelini kapat ve arayüz panelini aç
         GameEndingPanel.SetActive(false);
         InterFacePanel.SetActive(true);
+        Time.timeScale = 1f; // Zaman ölçeðini sýfýrla
 
-        // Oyun zamanýný tekrar baþlat
-        Time.timeScale = 1f;
-
-        // Yeni sahneyi yükle
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("SpaceShip");
     }
 }

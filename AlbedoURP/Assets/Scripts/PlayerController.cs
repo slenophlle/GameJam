@@ -6,21 +6,20 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     public Animator animator;
-
     [SerializeField] float speed;
+    private Soundmanager soundManager;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
+        soundManager = FindObjectOfType<Soundmanager>(); // SoundManager referansýný al
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         MovePlayer();
         UpdateAnimation();
+        HandleWalkingSound();
     }
 
     private void MovePlayer()
@@ -38,5 +37,20 @@ public class PlayerController : MonoBehaviour
 
         animator.SetFloat("Horizontal", horizontal);
         animator.SetFloat("Vertical", vertical);
+    }
+
+    private void HandleWalkingSound()
+    {
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        if (horizontal != 0 || vertical != 0) // Karakter hareket ediyorsa
+        {
+            soundManager.PlayWalkSound();
+        }
+        else // Karakter duruyorsa
+        {
+            soundManager.StopWalkSound();
+        }
     }
 }

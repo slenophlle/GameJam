@@ -11,6 +11,7 @@ TagManager:
   - IDcard
   - ScrewDriver
   - SampleTube
+  - DetectionZone
   layers:
   - Default
   - TransparentFX

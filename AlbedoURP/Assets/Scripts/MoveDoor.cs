@@ -16,12 +16,15 @@ public class MoveDoor : MonoBehaviour
     private Vector3 rightDoorInitialPosition;
 
     private bool isTriggered = false;
+    private bool doorOpenSoundPlayed = false; // Kapý açýlma sesi çalýndý mý kontrolü
+    private Soundmanager soundManager;
 
     private void Start()
     {
         // Kapýlarýn baþlangýç pozisyonlarýný kaydedin
         leftDoorInitialPosition = leftDoor.position;
         rightDoorInitialPosition = rightDoor.position;
+        soundManager = FindObjectOfType<Soundmanager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -30,9 +33,10 @@ public class MoveDoor : MonoBehaviour
 
         if (other.CompareTag("Player") || other.CompareTag("Enemy")) // Tetikleyicinin "Player" tag'ini kontrol edin
         {
-            if (!isTriggered) // Kapý zaten açýlmýþsa tekrar açýlmasýn
+            if (!isTriggered && AreDoorsClosed()) // Kapý zaten açýlmýþsa ve kapý kapalý ise tekrar açýlmasýn
             {
                 isTriggered = true; // Kapýlarý açmak için tetikleyin
+                doorOpenSoundPlayed = false; // Kapý sesi henüz çalýnmadý
                 StartCoroutine(CloseDoorsAfterDelay(3.0f)); // 3 saniye sonra kapýlarý kapat
             }
         }
@@ -42,6 +46,13 @@ public class MoveDoor : MonoBehaviour
     {
         if (isTriggered)
         {
+            // Kapýlar hareket etmeye baþladýðýnda kapý sesi çal
+            if (!doorOpenSoundPlayed && (Vector3.Distance(leftDoor.position, leftDoorInitialPosition) > 0.01f || Vector3.Distance(rightDoor.position, rightDoorInitialPosition) > 0.01f))
+            {
+                soundManager.PlayDoorOpenSound();
+                doorOpenSoundPlayed = true; // Sesi çaldýktan sonra bu durumu iþaretle
+            }
+
             // Kapýlarý hareket ettirin
             leftDoor.position = Vector3.Lerp(leftDoor.position, leftDoorInitialPosition - Vector3.left * moveDistance, Time.deltaTime * moveSpeed);
             rightDoor.position = Vector3.Lerp(rightDoor.position, rightDoorInitialPosition - Vector3.right * moveDistance, Time.deltaTime * moveSpeed);
@@ -55,6 +66,8 @@ public class MoveDoor : MonoBehaviour
 
         // Kapýlarý baþlangýç konumlarýna geri döndür
         isTriggered = false; // Kapý kapatma iþlemini baþlat
+        doorOpenSoundPlayed = false; // Kapý kapanýrken ses tekrar çalýnabilir hale gelsin
+
         while (Vector3.Distance(leftDoor.position, leftDoorInitialPosition) > 0.01f || Vector3.Distance(rightDoor.position, rightDoorInitialPosition) > 0.01f)
         {
             leftDoor.position = Vector3.Lerp(leftDoor.position, leftDoorInitialPosition, Time.deltaTime * moveSpeed);
@@ -68,5 +81,11 @@ public class MoveDoor : MonoBehaviour
 
         // Kapý kapandýktan sonra Collider'ý tekrar aktif et
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
+    }
+
+    private bool AreDoorsClosed()
+    {
+        // Kapýlarýn baþlangýç konumlarýna yakýn olup olmadýðýný kontrol eder
+        return Vector3.Distance(leftDoor.position, leftDoorInitialPosition) < 0.01f && Vector3.Distance(rightDoor.position, rightDoorInitialPosition) < 0.01f;
     }
 }
